@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Koubachi Game</title>
+	<meta name="description" content="If you thought looking after plants was easy, think again! This fast-paced game of skill will challenge your reactions and give even the greenest of fingers a tough workout!" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<link rel="image_src" href="images/page-icon.jpg" />
+		<link rel="stylesheet" href="css/game.css?2" />
+	<script>var _facebook = 0;</script>
+		<link rel="stylesheet" href="css/mediaelementplayer.custom.css" />
+	<script type="text/javascript" src="js/browserdetect.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/md5-min.js"></script>
+	<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+	<script type="text/javascript" src="js/tinyscrollbar.min.js"></script>
+	<script type="text/javascript" src="js/analytics.js"></script>
+	<script type="text/javascript" src="js/crafty-min.js"></script>
+	<script type="text/javascript" src="js/ig.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+	function onOrientationChange() { window.scrollTo(0,22); }
+	window.onorientationchange = function() { onOrientationChange(); };
+	</script>
+	<style> #wrapper { margin: auto !important }</style>	</head>
+<body onload="setTimeout(onOrientationChange(),1);">
+
+	<div id="wrapper">
+		<div id="video"></div>
+		<div id="soundmanager"></div>
+		<div id="social"></div>
+		<div id="footer"></div>
+		<div id="screens"></div>
+		<canvas id="canvas">
+			<div id="badbrowser"></div>
+		</canvas>
+	</div>
+	
+		
+</body>
+</html>
